@@ -7,3 +7,5 @@
 *.iml
 out
 gen
+/*/target
+/*/src/main/resources/rebel.xml
