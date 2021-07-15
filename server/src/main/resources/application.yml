@@ -1,0 +1,17 @@
+spring:
+  profiles:
+    active: @profiles.active@
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.zaxxer.hikari.HikariDataSource
+    hikari:
+      auto-commit: true
+      maximum-pool-size: 10
+      connection-timeout: 30000
+      idle-timeout: 600000
+      max-lifetime: 1800000
+      minimum-idle: 1
+      connection-test-query: select 1
+
+logging:
+  config: classpath:log4j2.xml
