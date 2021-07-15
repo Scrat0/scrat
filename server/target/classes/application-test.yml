@@ -1,9 +1,0 @@
-spring:
-  datasource:
-    hikari:
-      jdbc-url: jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=utf8&autoReconnect=true&autoReconnectForPools=true&zeroDateTimeBehavior=convertToNull&useSSL=false
-      username: root
-      password:
-
-server:
-  port: 8889
